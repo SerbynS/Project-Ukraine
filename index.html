@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Document</title>
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+         integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      />
+      <link
+         rel="shortcut icon"
+         href="./img/Icons/favicon.png"
+         type="image/x-icon"
+      />
+      <link rel="stylesheet" href="./css/style.css" />
+      <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.10.1/tsparticles.bundle.min.js"></script>
+      <script src="./js/particles.js" defer></script>
+   </head>
+   <body>
+      <div class="text-modal" id="modal-id">
+         <a href="#close"> <i class="fa fa-times" aria-hidden="true"></i></a>
+         <div class="text-p-h3">
+            <p class="ssy">
+               Збройні сили України вдячні за<br />
+               підтримку!
+            </p>
+            <p class="yss">Разом до перемоги!</p>
+         </div>
+      </div>
+
+      <div class="girl" id="modal6">
+         <a href="#close"> <i class="fa fa-times" aria-hidden="true"></i></a>
+         <img src="./img/girl.png" alt="" />
+         <div class="text-p-h3">
+            <h3>Джесіка Паркер</h3>
+            <p class="give">
+               Добрий день!Мене звати<br />
+               Теодора Левченко.Мені<br />
+               23 роки. я є частиною<br />
+               чудової команди яка<br />
+               працює над фондом який<br />
+               допомагає ЗСУ.Раніше я<br />
+               працювала у сфері<br />
+               фінансів.Тому зараз<br />
+               займаюсь переказами на<br />
+               ЗСУ.
+            </p>
+         </div>
+      </div>
+
+      <div class="boy" id="modal4">
+         <a href="#close"> <i class="fa fa-times" aria-hidden="true"></i></a>
+         <img src="./img/boy.png" alt="" />
+         <div class="text-p-h3">
+            <h3>Олексій Дорошенко</h3>
+            <p class="win">
+               Добрий день!Мене звати Теодора Левченко.Мені 23 роки. я є
+               частиною чудової команди яка працює над фондом який допомагає
+               ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
+               переказами на ЗСУ.
+            </p>
+         </div>
+      </div>
+
+      <div class="bird" id="modal5">
+         <a href="#close"><i class="fa fa-times" aria-hidden="true"></i></a>
+         <img src="./img/bird.png" alt="" />
+         <div class="text-p-h3">
+            <h3>Тарас Балінській</h3>
+            <p class="Boris">
+               Добрий день!Мене звати Теодора Левченко.Мені 23 роки. я є
+               частиною чудової команди яка працює над фондом який допомагає
+               ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз займаюсь
+               переказами на ЗСУ.
+            </p>
+         </div>
+      </div>
+
+      <div class="modal" id="modal1">
+         <a href="#close"><i class="fa fa-times"></i></a>
+
+         <h6>Підтримай українську армію сьогодні!</h6>
+
+         <p>Ім’я</p>
+         <input type="text" name="firstname" />
+         <p>Email</p>
+         <input type="text" name="secondname" />
+         <p>Адресс</p>
+         <input type="text" name="lastname" />
+
+         <button class="modal-button" type="">Підтримати</button>
+      </div>
+
+      <div class="modal2" id="modal2">
+         <a href="#close"><i class="fa fa-times"></i></a>
+
+         <h6>Підтримай українську армію сьогодні!</h6>
+
+         <p>Сума</p>
+         <input type="text" name="firstname" />
+
+         <p>Email</p>
+         <input type="text" name="secondname" />
+
+         <button class="modal-button" type="">Підтримати</button>
+      </div>
+
+      <div class="modal3" id="modal3">
+         <a href="#close"><i class="fa fa-times"></i></a>
+
+         <img class="modal-img" src="./img/Teodora.modal.png" alt="" />
+
+         <div>
+            <h3>Теодора Левченко</h3>
+            <p>
+               Добрий день!Мене звати Теодора Левченко.Мені 23 роки.І я є на
+               ЗСУ. частиною чудової команди яка працює над фондом який
+               допомагає ЗСУ.Раніше я працювала у сфері фінансів.Тому зараз
+               займаюсь переказами
+            </p>
+         </div>
+      </div>
+
+      <nav>
+         <ul>
+            <li class="first one">Ігри</li>
+            <li class="second one">Новини</li>
+            <li class="third one">Про нас</li>
+            <li class="fourth one">Допомога армії</li>
+            <li class="fifth one">
+               <a href="#modal2">Підтримати</a>
+            </li>
+            <li class="sixth one">Гаряча лінія</li>
+         </ul>
+      </nav>
+      <header>
+         <div class="group">
+            <h1>Ukraine Support</h1>
+
+            <h5>Fondation</h5>
+
+            <p class="text">
+               Фонд» - громадська організація , заснована У 2022 році командою
+               волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу
+               ЗСУ за мінімальний строк.
+            </p>
+            <button class="button"><a href="#modal1">Підтримати</a></button>
+         </div>
+         <p class="get">get started</p>
+         <p class="V">V</p>
+      </header>
+      <section>
+         <h2>
+            Про нас
+            <br />
+            Ukraine Support Fondation
+         </h2>
+         <div class="section-p">
+            <p>
+               Фонд» - громадська організація , заснована У 2022 році командою
+               волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу
+               ЗСУ за мінімальний строк.
+            </p>
+            <br />
+            <p>
+               Фонд» - громадська організація , заснована У 2022 році командою
+               волонтерів.. Цiлi фонду назбирати максимальну суму на допомогу
+               ЗСУ за мінімальний строк.
+            </p>
+         </div>
+         <p class="p">ЗАСНОВНИКИ ФОНДУ</p>
+
+         <div class="square1"></div>
+         <div class="square2"></div>
+         <div class="square3"></div>
+         <div class="square4"></div>
+
+         <div class="Oleksiy">
+            <a href="#modal4">
+               <img src="./img/Oleksiy.png" alt="" />
+               <p>Олексій Дорошенко</p>
+            </a>
+         </div>
+
+         <div class="Taras">
+            <a href="#modal5">
+               <img src="./img/Taras.png" alt="" />
+               <p>Tapac Білінський</p>
+            </a>
+         </div>
+         <div class="Teodora">
+            <a href="#modal3">
+               <img src="./img/Teodora.png" alt="" />
+               <p>Теодора Левенко</p>
+            </a>
+         </div>
+         <div class="Djesika">
+            <a href="#modal6">
+               <img src="./img/Djesika.png" alt="" />
+               <p>Джесіка Паркер</p>
+            </a>
+         </div>
+      </section>
+      <section class="section-2">
+         <h3>Львів-MICTO ГЕРОЙ</h3>
+         <p>
+            Lorem ipsum dolor sit amet,<br />
+            consectetur adipiscing elit, sed do <br />
+            eiusmod tempor incididunt ut labore <br />
+            et dolore magna aliqua.
+         </p>
+      </section>
+      <div id="tsparticles"></div>
+
+      <section class="Donate-info">
+         <div>
+            <img src="./img/Donate.png" alt="Error" />
+
+            <div>
+               <h3 class="donate-title">Інформація про збір</h3>
+               <p>
+                  Зараз наша велика і дружна команда намагається назбирати на
+                  байрактари,адже українська армія їх так потребує.Потрібно
+                  назбирати 50 млн долларів.За допомогою нашої команди ми вже
+                  назбирали половину тож приєднуйся й допоможи армії виграти.
+               </p>
+
+               <button><a href="#modal-id">Підтримати</a></button>
+            </div>
+         </div>
+      </section>
+
+      <section class="Kharkiv">
+         <h4>Харків-МІСТО ГЕРОЙ</h4>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+
+         <!-- Кубіки -->
+         <div></div>
+         <div></div>
+      </section>
+
+      <section class="Donate">
+         <h3>Підтримай армію</h3>
+
+         <div>
+            <div>
+               <img src="./img/Viyska-help.png" alt="Error" />
+               <p>Військова допомога</p>
+            </div>
+
+            <div>
+               <img src="./img/Gumanitarna-help.png" alt="Error" />
+               <p>Гуманітарна допомога</p>
+            </div>
+         </div>
+      </section>
+
+      <section class="Kyiv">
+         <h4>Київ-МІСТО ГЕРОЙ</h4>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+      </section>
+
+      <section class="Game">
+         <div>
+            <div>
+               <h3>Ігри</h3>
+
+               <div>
+                  <img src="./img/Icons/Strelka-left.svg" alt="Error" />
+
+                  <div>
+                     <div>
+                        <img src="./img/minecraft.jpg" alt="Error" />
+                     </div>
+                     <p>Minecraft</p>
+                  </div>
+
+                  <div>
+                     <div>
+                        <img src="./img/cs-go.jpg" alt="Error" />
+                     </div>
+                     <p>CS:GO</p>
+                  </div>
+
+                  <div>
+                     <div>
+                        <img src="./img/morskiy-biy.png" alt="Error" />
+                     </div>
+                     <p>Морський бій</p>
+                  </div>
+
+                  <img src="./img/Icons/Strelka-right.svg" alt="Error" />
+               </div>
+            </div>
+
+            <div>
+               <h3>Купи товар і допоможи ЗСУ</h3>
+
+               <div>
+                  <img src="./img/Icons/Strelka-left.svg" alt="Error" />
+
+                  <div>
+                     <img src="./img/iphone.jpeg" alt="Error" />
+                  </div>
+
+                  <div>
+                     <img src="./img/bugatti.jpg" alt="Error" />
+                  </div>
+                  <div>
+                     <img src="./img/villa.jpg" alt="Error" />
+                  </div>
+
+                  <img src="./img/Icons/Strelka-right.svg" alt="Error" />
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <section class="Kherson">
+         <h4>Херсон-МІСТО ГЕРОЙ</h4>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+      </section>
+
+      <section class="Achievements">
+         <h3>Наші досягнення</h3>
+
+         <div>
+            <div>
+               <img src="./img/USA-UA.png" alt="Error" />
+               <p>
+                  За допомогою наших партнерів ,волонтерів, і бажаючих назбирали
+                  30 млн на гуманітарну допомогу ЗСУ.
+               </p>
+               <img src="./img/Samolet.png" alt="Error" />
+            </div>
+
+            <div>
+               <p>
+                  Спільно з нашими партнерами ми створили програму “We all
+                  peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
+                  Канаду, Туреччину, Італію та Великобританію
+               </p>
+               <img src="./img/Korobky.png" alt="Error" />
+            </div>
+
+            <div>
+               <img src="./img/Vertolet.png" alt="Error" />
+               <p>
+                  Спільно з нашими партнерами ми створили програму “We all
+                  peopl” який захопивУкраїну, Польщу, США, Німеччину, Чехію,
+                  Канаду, Туреччину, Італію та Великобританію
+               </p>
+            </div>
+         </div>
+      </section>
+
+      <section class="Mariupol">
+         <h4>Маріуполь-МІСТО ГЕРОЙ</h4>
+         <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+         </p>
+      </section>
+
+      <section class="Details">
+         <div>
+            <h3>
+               Реквізити з фонду
+               <p>*ПОНЯТНО*</p>
+            </h3>
+
+            <div class="details-info">
+               <ul>
+                  <li>
+                     <p>Сompany Name</p>
+                     <h5>ГО ФОНД USF</h5>
+                  </li>
+                  <li>
+                     <p>IBAN Code</p>
+                     <h5>UA313052990000026002036802057</h5>
+                  </li>
+                  <li>
+                     <p>Name of the bank</p>
+                     <h5>
+                        JSC CB "PRIVATBANK", 1D HRUSHEVSKOHO STR., KYIV, 01001,
+                        UKRAINE
+                     </h5>
+                  </li>
+                  <li>
+                     <p>Bank SWIFT Code</p>
+                     <h5>PBANUA2X</h5>
+                  </li>
+                  <li>
+                     <p>Company address</p>
+                     <h5>
+                        Ukraine, 01033, Kyiv, Saksaganskogo str, 27B, office 43
+                     </h5>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </section>
+
+      <footer class="footer">
+         <div>
+            <h3>Разом до перемоги!</h3>
+            <!-- Кубіки -->
+            <div>
+               <div></div>
+               <div></div>
+            </div>
+
+            <ul class="footer-icons">
+               <li class="footer-icon">
+                  <a
+                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                     class="icon-link"
+                     target="_blank"
+                  >
+                     <i class="footer-instagram fa fa-instagram"></i>
+                  </a>
+               </li>
+               <li class="footer-icon">
+                  <a
+                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                     class="icon-link"
+                     target="_blank"
+                  >
+                     <i class="footer-facebook fa fa-facebook"></i>
+                  </a>
+               </li>
+               <li class="footer-icon">
+                  <a
+                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                     class="icon-link"
+                     target="_blank"
+                  >
+                     <i class="footer-facebook fa fa-twitter"></i>
+                  </a>
+               </li>
+               <li class="footer-icon">
+                  <a
+                     href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                     class="icon-link"
+                     target="_blank"
+                  >
+                     <i class="footer-pinterest fa fa-pinterest"></i>
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </footer>
+   </body>
+</html>

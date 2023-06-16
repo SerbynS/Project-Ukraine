@@ -1,0 +1,237 @@
+.text-modal {
+   background-color: #fff;
+   border-radius: 10px;
+   border: 1px solid black;
+   width: 700px;
+   height: 400px;
+   @include ModalCenter();
+   display: none;
+   h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 29px;
+
+      color: #131c6a;
+      padding-left: 72px;
+      padding-top: 40px;
+      padding-bottom: 72px;
+
+      width: 254px;
+      height: 39px;
+   }
+   .ssy {
+      padding-top: 65px;
+      padding-left: 68px;
+      padding-right: 69px;
+
+      text-align: center;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 41px;
+      color: #000000;
+   }
+   .yss {
+      text-align: center;
+      padding-top: 102px;
+
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 34px;
+      line-height: 41px;
+      color: #000000;
+   }
+   &:target {
+      display: block;
+   }
+   a {
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      color: #000000;
+   }
+}
+
+.girl {
+   background-color: #fff;
+   border-radius: 10px;
+   width: 837px;
+   height: 577px;
+   @include ModalCenter();
+   display: flex;
+   border: 1px solid black;
+   display: none;
+   h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 29px;
+
+      color: #131c6a;
+      padding-left: 72px;
+      padding-top: 40px;
+      padding-bottom: 72px;
+
+      width: 254px;
+      height: 39px;
+   }
+   img {
+      width: 422px;
+      height: 512px;
+
+      margin-top: 40px;
+      margin-left: 49px;
+   }
+
+   .give {
+      font-family: "Inter";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 29px;
+      font-style: normal;
+
+      color: #000000;
+
+      padding-bottom: 174px;
+      padding-right: 37px;
+      padding-left: 29px;
+   }
+   &:target {
+      display: flex;
+   }
+   a {
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      color: #000000;
+   }
+}
+
+.boy {
+   background-color: #fff;
+   border-radius: 10px;
+   border: 1px solid black;
+   width: 837px;
+   height: 577px;
+   @include ModalCenter();
+   display: flex;
+   display: none;
+   h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 29px;
+
+      color: #131c6a;
+      padding-left: 72px;
+      padding-top: 40px;
+      padding-bottom: 72px;
+
+      width: 254px;
+      height: 39px;
+   }
+   img {
+      width: 435px;
+      height: 512px;
+
+      margin-top: 32px;
+      margin-left: 32px;
+   }
+
+   .win {
+      font-family: "Inter";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 29px;
+      font-style: normal;
+
+      color: #000000;
+
+      padding-bottom: 174px;
+      padding-right: 37px;
+      padding-left: 29px;
+   }
+
+   &:target {
+      opacity: 1;
+      display: flex;
+   }
+   a {
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      color: #000000;
+   }
+}
+
+.bird {
+   background-color: #fff;
+   border-radius: 10px;
+   border: 2px solid black;
+   width: 837px;
+   height: 577px;
+   @include ModalCenter();
+   display: flex;
+   display: none;
+   h3 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 32px;
+      line-height: 29px;
+
+      color: #131c6a;
+      padding-left: 72px;
+      padding-top: 40px;
+      padding-bottom: 72px;
+
+      width: 254px;
+      height: 39px;
+   }
+   img {
+      width: 416px;
+      height: 506px;
+
+      margin-top: 37px;
+      margin-left: 32px;
+   }
+
+   .Boris {
+      font-family: "Inter";
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 29px;
+      font-style: normal;
+
+      color: #000000;
+
+      padding-bottom: 174px;
+      padding-right: 37px;
+      padding-left: 29px;
+   }
+
+   &:target {
+      display: flex;
+   }
+   a {
+      position: absolute;
+      right: 17px;
+      top: 12px;
+      color: #000000;
+   }
+}
+
+.modal {
+   border: 1px solid black;
+   width: 700px;
+   height: 470px;
+   background: #ffffff;
+   border-radius: 10px;
+}
